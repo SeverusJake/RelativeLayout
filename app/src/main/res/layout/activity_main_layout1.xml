@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvred"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F44336"
+        android:padding="5dp"
+        android:text="Red" />
+    <TextView
+        android:id="@+id/tvgreen"
+        android:layout_above="@id/tvred"
+        android:layout_alignLeft="@+id/tvred"
+        android:textSize="20sp"
+        android:text="Green"
+        android:background="#4CAF50"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvblue"
+        android:layout_above="@id/tvgreen"
+        android:textSize="20sp"
+        android:layout_alignLeft="@+id/tvred"
+        android:text="Blue"
+        android:background="#2196F3"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvorange"
+        android:layout_below="@id/tvred"
+        android:textSize="20sp"
+        android:text="Orange"
+        android:layout_alignLeft="@+id/tvred"
+        android:background="#FF5722"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvpink"
+        android:layout_below="@id/tvorange"
+        android:textSize="20sp"
+        android:text="Pink"
+        android:layout_alignLeft="@+id/tvred"
+        android:background="#9C27B0"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvgray"
+        android:layout_below="@id/tvpink"
+        android:textSize="20sp"
+        android:text="Yellow"
+        android:layout_alignLeft="@+id/tvred"
+        android:background="#FFEB3B"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
